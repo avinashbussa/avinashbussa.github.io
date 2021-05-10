@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="513px" height="513px" viewBox="0 0 513 513" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>favicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="favicon" fill-rule="nonzero">
+            <g transform="translate(0.795112, 0.204888)">
+                <rect id="Rectangle" fill="#FFEB3B" x="0" y="0" width="512" height="512" rx="256"></rect>
+                <path d="M403.990006,41.9513343 L470.048666,108.009994 L397.261556,180.798307 C409.221088,203.216711 416,228.816706 416,256 C416,344.36556 344.36556,416 256,416 C228.816706,416 203.216711,409.221088 180.798307,397.261556 L108.009994,470.048666 L41.9513343,403.990006 L114.738444,331.201693 C102.778912,308.783289 96,283.183294 96,256 C96,167.63444 167.63444,96 256,96 C283.183294,96 308.783289,102.778912 331.201693,114.738444 L403.990006,41.9513343 Z" id="Combined-Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

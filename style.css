@@ -76,14 +76,6 @@ select{
     margin-bottom: 30px;
   }
 
-.pot-backdrop{
-  position: absolute; 
-  top: -08vh; 
-  right: 10vw; 
-  pointer-events: none; 
-  height: 320px;
-}
-
 @media only screen and (max-width: 1024px){
   object {
     height: 70vh;
@@ -114,8 +106,5 @@ select{
 @media only screen and (max-width : 460px) and (max-height : 900px){
   object {
     height: 480px;
-  }
-  .pot-backdrop{
-    display: none;
   }
 }

@@ -4,6 +4,7 @@ body {
   margin: 0;
   background-color: #fff;
   font-family: 'Source Sans Pro',sans-serif;
+  overflow: hidden;
 }
 a {
   text-decoration: underline;

@@ -10,9 +10,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
   setTimeout(function(){ 
     showInstallPromotion();
   }, 4000);
-  setTimeout(function(){ 
-    hideInstallPromotion();
-  }, 11000);
+  // setTimeout(function(){ 
+  //   hideInstallPromotion();
+  // }, 11000);
   // Optionally, send analytics event that PWA install promo was shown.
   console.log(`'beforeinstallprompt' event was fired. Now it's your turn!`);
 });

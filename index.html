@@ -24,6 +24,14 @@
   </head>
 <body>
   <img src="./images/QDP_192.svg" class="logo hide-on-mobile" height="72px"></img>
+  <div id="snackbar">
+    <p style="margin: 0;line-height: 20px; font-size: 18px; font-weight:600">Get most out of QDP</p>
+    <p style="color: #a1a1a1; margin: 6px 0 16px 0; font-size: 14px;">Use QDP offline alongside your favourite design tools and save yourselves from developers and managers!</p>
+    <div style="display: flex;align-items: center;">
+      <p class="snackbar-button" id="installBtn">Install</p>
+      <p id="closeBtn">Not now</p>
+    </div>
+  </div>
   <div id="dropZone" class="center" style="position: absolute; height: 100%; width: 100%; background-color: #addabeee; font-size: 40px; color:#00000084; visibility:hidden; z-index: 9;"> drop your files here </div>
   <div class="wrapper center">
     <select id="device-model-responsive" onchange="select_model()" class="responsive-device-selector">
@@ -76,6 +84,7 @@
   <p style="position: absolute; margin: 0; bottom: 20px;">#designforall - Mockups by <a href="https://design.facebook.com/toolsandresources/devices">facebook.design</a></p>
 </footer>
 <script  src="./script.js"></script>
+<script  src="./a2hs.js"></script>
 <script>
 if('serviceWorker' in navigator) {
   let registration;

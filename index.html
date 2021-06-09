@@ -67,10 +67,9 @@
         <p class="headerbuttons" style="margin: 0; padding: 8px 16px; width:fit-content"> <span class="material-icons" style="margin-right:10px";>help_outline</span>How to use</p>
       </div>
   </header>
-  <!-- <img src="./images/QDP_192.svg" class="logo hide-on-mobile" height="72px"></img> -->
   <div id="snackbar">
     <p style="margin: 0;line-height: 20px; font-size: 18px; font-weight:600">Get most out of QDP</p>
-    <p style="color: #a1a1a1; margin: 6px 0 16px 0; font-size: 14px;">Use QDP offline alongside your favourite design tools and save yourselves from developers and managers!</p>
+    <p style="color: #a1a1a1; margin: 10px 0 16px 0; font-size: 13px; line-height: 17px;">Use QDP offline alongside your favourite design tools and save yourselves from developers and managers!</p>
     <div style="display: flex;align-items: center;">
       <p class="snackbar-button" id="installBtn">Install</p>
       <p id="closeBtn">Not now</p>
@@ -78,25 +77,7 @@
   </div>
   <div id="dropZone" class="center" style="position: absolute; height: 100%; width: 100%; background-color: #addabeee; font-size: 40px; color:#00000084; visibility:hidden; z-index: 9;"> drop your files here </div>
   <div class="wrapper center">
-    <!-- <select id="device-model-responsive" onchange="select_model()" class="responsive-device-selector">
-          <option value="1">iPhone 12</option>
-          <option value="2">iPhone 12 Mini</option>
-          <option value="3">iPhone 12 Pro</option>
-          <option value="4">iPhone 12 Pro Max</option>
-          <option value="5">iPhone 11</option>
-          <option value="6">iPhone 11 Pro</option>
-          <option value="7">iPhone 11 Pro Max</option>
-          <option value="8">iPhone SE</option>
-          <option value="9">iPhone XR</option>
-          <option value="10">Google Pixel 5</option>
-          <option value="11">Apple Watch Series 6</option>
-          <option value="12">Moto 360</option>
-        </select> -->
     <div id="mockup" style="transition: all ease-in; cursor: grab;">
-      <!-- <div class="center" style="position: absolute; height: 100%; width: 100%; z-index: 8;">
-        <input type="file" id="upload-btn" accept="image/*" onChange="readURL(this);"/>
-        <label for="upload-btn" class="" style="height: 92%; width: 88%; border-radius: 40px; transform: translateY(-10px);"></label>
-      </div> -->
       <input type="file" id="upload-btn" accept="image/*" onChange="readURL(this);"/>
       <label for="upload-btn" style="height: 100%; width: 100%;"></label>
       <object id="svgObject" data="./Apple_iPhone_12_Pro.svg" type="image/svg+xml">This file got an emergency <br> can you give us some internet to recover?</object>
@@ -104,30 +85,6 @@
     <div style="position: absolute; margin: 20px; right: 30%; transform: rotate(270deg); padding: 12px 12px 16px 12px; background-color: #19191b; border-radius: 4px"> 
       <input type="range" min="540" max="1000" value="600" class="slider" id="ZoomObject">
     </div>
-    <!-- <div class="right">
-        <select id="device-model" onchange="select_model()">
-          <option value="1">iPhone 12</option>
-          <option value="2">iPhone 12 Mini</option>
-          <option value="3">iPhone 12 Pro</option>
-          <option value="4">iPhone 12 Pro Max</option>
-          <option value="5">iPhone 11</option>
-          <option value="6">iPhone 11 Pro</option>
-          <option value="7">iPhone 11 Pro Max</option>
-          <option value="8">iPhone SE</option>
-          <option value="9">iPhone XR</option>
-          <option value="10">Google Pixel 5</option>
-          <option value="11">Apple Watch Series 6</option>
-          <option value="12">Moto 360</option>
-        </select>
-        <p id="mockup-title" style="padding: 20px 0 20px 0; font-size: 28px; font-weight:600; width: 300px;">Apple iPhone 12 Pro Pacific Blue</p>
-        <div class="center" style="justify-content: left;">
-            <input type="file" id="upload-btn" accept="image/*" onChange="readURL(this);"/>
-            <label for="upload-btn" class="uploadButton">Upload your design</label>
-            <p style="font-size: 16px; color: #9e9e9e; padding:20px; margin:0;">Or</p>
-            <p style="font-size: 16px; color: #999; padding:20px 30px; background-color: #f4f4f4; border-radius:8px; margin:0;">  try Copy + Paste &nbsp; / &nbsp; Drag and Drop</p>
-        </div>
-        <p class="about" id="about">What is supported? <br><br> &nbsp; • &nbsp; Copy Paste your artboards directly from your design tool <br> &nbsp; • &nbsp; Use Drag & Drop or Upload button to upload GIFs <br> &nbsp; •  &nbsp; A range of device mockups <br><br> This is a simple tool for designers by a designer to help quickly preview the designs in the mockups and validate the aesthetics. Nothing much. <span id="about-inner" style="display:none; transition: ease-in 0.4s;"><br> If you ask about privacy, your designs were never even uploaded. It's more like an image viewer on your desktop.</span><a id="about-link" style="color:green;cursor:pointer;transition: ease-in 0.2s" onClick="moreAbout();">more</a></p>   
-  </div> -->
 </div>
 <footer class="center">
   <p style="position: absolute; margin: 0; bottom: 20px;">#designforall - Mockups by <a href="https://design.facebook.com/toolsandresources/devices">facebook.design</a></p>

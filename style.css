@@ -8,8 +8,11 @@
   font-size: 14px;
 }
 
-body {
+html{
   background-color: #1f1f21;
+}
+
+body {
   overflow: hidden;
 }
 
@@ -74,7 +77,7 @@ body {
   width: 328px; 
   height: auto;
   overflow: overlay;
-  max-height: 480px;
+  max-height: 400px;
   animation: height cubic-bezier(0, 0, 0.33, 0.96) 0.1s;
   box-shadow: #00000050 0px 2px 16px;
 }
@@ -169,12 +172,22 @@ footer {
 }
 
 object { 
-  height: 600px;
+  height: 500px;
   position: relative;
   pointer-events: none;
 }
 
 /* Slider starts */
+.rangeSlider{
+  position: absolute; 
+  margin: 20px; 
+  right: 30%; 
+  transform: rotate(270deg); 
+  padding: 12px 12px 16px 12px; 
+  background-color: #19191b; 
+  border-radius: 4px
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
@@ -261,26 +274,31 @@ object {
 
 /* ------------------------------------Install Snippet Ended---------- */
 
+/* @media only screen and (max-width : 768px){
+  body {
+    display: none;
+  }
+} */
+
 @media only screen and (max-width: 1024px){
-  object {
-    height: 70vh;
-    }
+  .rangeSlider{
+    right: -30px; 
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 960px){
-  .center{
-    flex-direction: column
-  }
-  object {
-  height: 58vh;
-  }
   .hide-on-mobile{
     display: none;
   }
-}
-
-@media only screen and (max-width : 460px) and (max-height : 900px){
-  object {
-    height: 480px;
+  .drop-down .selected{
+    width: 260px;
+  }
+  .drop-down .options{
+    width: 260px;
+  }
+  .logoText{
+    font-size: 13px;
   }
 }
+
